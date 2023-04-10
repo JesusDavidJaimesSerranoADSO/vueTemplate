@@ -4,7 +4,8 @@ import contentCopm from './components/contentCopm.js';
 import slideCompo from './components/slideCompo.js';
 import main from './main.js';
 
-let  app = createApp(main);
+let app = createApp(main);
+
 app.component(navComp.name, navComp);
 app.component(contentCopm.name, contentCopm);
 app.component(slideCompo.name, slideCompo);
