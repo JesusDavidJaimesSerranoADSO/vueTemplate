@@ -4,11 +4,11 @@ export default {
     <nav>
     <img :src="config.imagen1" alt=""> 
     <ul>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="#" v-text="config.enlaces[0]"></a></li>
+        <li><a href="#" v-text="config.enlaces[1]"></a></li>
+        <li><a href="#"v-text="config.enlaces[2]">Contact us</a></li>
     </ul>
-    <a href="#">Partnership program</a>
+    <a href="#" v-text="config.enlaces[3]"></a>
     </nav>
 `,
     props: {
