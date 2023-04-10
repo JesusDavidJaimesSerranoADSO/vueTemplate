@@ -1,9 +1,11 @@
 import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
-import myCompot from './components/myCompot.js';
+import navComp from './components/navComp.js';
+
 import main from './main.js';
 
 let  app = createApp(main);
-app.component(myCompot.name, myCompot);
+app.component(navComp.name, navComp);
+
 app.mount('#app')
 
 
